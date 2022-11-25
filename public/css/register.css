@@ -1,0 +1,78 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, black , green);
+}
+
+.register {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+   
+}
+
+.register h1 {
+    font-size: 3rem;
+    color: white;
+    
+}
+.register .formData{
+    background-color: rgba(239, 199, 199, 0.629);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.register form {
+    display: flex;
+    gap: 30px;
+}
+.register .formData .logo{
+    font-size: 5em;
+}
+
+.register .formData form .first,
+.register .formData form .second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.register .formData form .first div,
+.register .formData form .second div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+
+}
+
+
+.register form div input {
+    padding: 5px;
+    font-size: 1rem;
+}
+.register form div .error{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.register form button{
+    padding: 10px 75px;
+    border: none;
+    background-color: rgb(55, 52, 250);
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+}
